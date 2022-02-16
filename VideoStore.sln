@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.810.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore", "VideoStore.csproj", "{5432A0B1-598D-43E6-81D4-D71F8C875AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore.Core", "VideoStore.Core\VideoStore.Core.csproj", "{942D91C1-1437-451D-B14E-DC60945C3AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStore.Data", "VideoStore.Data\VideoStore.Data.csproj", "{AFE5C5D2-E73D-498C-90D3-98DD9BB31973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5432A0B1-598D-43E6-81D4-D71F8C875AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5432A0B1-598D-43E6-81D4-D71F8C875AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5432A0B1-598D-43E6-81D4-D71F8C875AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942D91C1-1437-451D-B14E-DC60945C3AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942D91C1-1437-451D-B14E-DC60945C3AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942D91C1-1437-451D-B14E-DC60945C3AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942D91C1-1437-451D-B14E-DC60945C3AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE5C5D2-E73D-498C-90D3-98DD9BB31973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE5C5D2-E73D-498C-90D3-98DD9BB31973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE5C5D2-E73D-498C-90D3-98DD9BB31973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE5C5D2-E73D-498C-90D3-98DD9BB31973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

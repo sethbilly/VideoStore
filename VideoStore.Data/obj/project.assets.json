@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "VideoStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/VideoStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoStore.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VideoStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../VideoStore.Core/VideoStore.Core.csproj",
+      "msbuildProject": "../VideoStore.Core/VideoStore.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "VideoStore.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/billy/.nuget/packages/": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/billy/workspace/demos/VideoStore/VideoStore.csproj",
-      "projectName": "VideoStore",
-      "projectPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.csproj",
+      "projectUniqueName": "/Users/billy/workspace/demos/VideoStore/VideoStore.Data/VideoStore.Data.csproj",
+      "projectName": "VideoStore.Data",
+      "projectPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.Data/VideoStore.Data.csproj",
       "packagesPath": "/Users/billy/.nuget/packages/",
-      "outputPath": "/Users/billy/workspace/demos/VideoStore/obj/",
+      "outputPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.Data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -35,7 +54,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/billy/workspace/demos/VideoStore/VideoStore.Core/VideoStore.Core.csproj": {
+              "projectPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.Core/VideoStore.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,9 +81,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

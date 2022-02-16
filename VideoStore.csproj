@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Pages\Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\Videos\" />
+  </ItemGroup>
 </Project>

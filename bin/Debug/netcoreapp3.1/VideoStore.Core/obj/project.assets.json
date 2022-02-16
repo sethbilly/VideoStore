@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/billy/workspace/demos/VideoStore/VideoStore.csproj",
-      "projectName": "VideoStore",
-      "projectPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.csproj",
+      "projectUniqueName": "/Users/billy/workspace/demos/VideoStore/VideoStore.Core/VideoStore.Core.csproj",
+      "projectName": "VideoStore.Core",
+      "projectPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.Core/VideoStore.Core.csproj",
       "packagesPath": "/Users/billy/.nuget/packages/",
-      "outputPath": "/Users/billy/workspace/demos/VideoStore/obj/",
+      "outputPath": "/Users/billy/workspace/demos/VideoStore/VideoStore.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -58,9 +58,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
